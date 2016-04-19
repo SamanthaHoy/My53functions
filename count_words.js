@@ -2,6 +2,7 @@
 
 module.exports = function(inputStr) {
   var splitSentence = inputStr.split(" ");
+console.log(splitSentence.length);
   var count = 0;
   splitSentence.forEach(function(a){
     count++;
