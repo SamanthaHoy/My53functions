@@ -1,3 +1,5 @@
+// takes a sentence as a parameter and returns the sum of the length of words in it
+
 var sum_word_len = require('../sum_word_len');
 var assert = require('assert');
 
