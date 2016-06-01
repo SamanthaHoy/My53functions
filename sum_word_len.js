@@ -7,6 +7,6 @@ module.exports = function(inputStr) {
   splitSentence.forEach(function(word){
     wordCount += word.length
   })
-  console.log("Input sentence : " + inputStr + " | Total sum of words : " + wordCount);
+  console.log("Input sentence : " + inputStr + " | Sum total length count of words : " + wordCount);
   return wordCount;
 }
